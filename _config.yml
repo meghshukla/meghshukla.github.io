@@ -1,14 +1,11 @@
 ### Site Settings ###
 title               : Megh Shukla
 description         : >-
-                      Research Engineer, Mercedes-Benz R&D India.
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      Research Engineer, Mercedes-Benz R&D India. I turn coffee :coffee: into code, use tabs over spaces and never broke production.
 baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : meghshukla/meghshukla.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : True                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
 ### Plugins ###
@@ -25,8 +22,8 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
+  name              : Megh Shukla
+  image             : https://drive.google.com/file/d/1lFP-8iaHtdJtLkx81JIIBiYQvle2Mel4/view?usp=sharing
 # behance           : your_username
 # dribbble          : your_username
   email             : work.meghshukla@gmail.com
