@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Megh Shukla
 description         : >-
-                      Research Engineer, Mercedes-Benz R&D India. I turn coffee :coffee: into code, use tabs over spaces and never broke production.
+                      Research Engineer, Mercedes-Benz. Site in development!
 baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : meghshukla/meghshukla.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
