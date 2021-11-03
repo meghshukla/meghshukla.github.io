@@ -23,7 +23,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Megh Shukla
-  image             : https://github.com/meghshukla/meghshukla.github.io/blob/master/photo.jpg
+  image             : https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/photo.jpg
 # behance           : your_username
 # dribbble          : your_username
   email             : work.meghshukla@gmail.com
