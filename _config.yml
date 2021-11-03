@@ -1,11 +1,12 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Megh Shukla
 description         : >-
+                      Research Engineer, Mercedes-Benz R&D India.
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "/portfolYOU"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : meghshukla/meghshukla.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -20,29 +21,28 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
 
 
 ### Author Info ###
 author:
   name              : John Doe
   image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+# behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  email             : work.meghshukla@gmail.com
+# facebook          : your_username
+  github            : meghshukla
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+  linkedin          : megh-shukla
+# medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+  twitter           : meghshukla
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
@@ -57,13 +57,11 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
 
 
 ### Disqus ###
-disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+# disqus:
+#   shortname: meghshukla                     # Your website Shortname on disqus
 
 
 ### Analytics ###
@@ -80,16 +78,11 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
   - scope:
       path: ""
       type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
+  #  values:
+  #    comments: false                                   # Set to true to enable disqus comments
 
 
 ### Exclude from processing ###
