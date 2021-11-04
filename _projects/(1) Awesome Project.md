@@ -1,7 +1,7 @@
 ---
 name: Bayesian Uncertainty and Expected Gradient Length
 tools: [Uncertainty Estimation, Active Learning, Human Pose Estimation]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+image: https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/images/EGL%2B%2B_WACV.jpg
 description: Proceedings of the 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
 ---
 
