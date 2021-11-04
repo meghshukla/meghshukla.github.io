@@ -8,12 +8,7 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
+As a Computer Vision Research Engineer, I had the privilege of leading research and implementing it in production! At Mercedes-Benz, I worked on solving Active Learning for human pose estimation. I provided a proof-of-concept and engineered a production pipeline for active learning, identifying limitations with existing methods. Consequently, my research [WACV22, CVPRW21] made key theoretical contributions in active learning theory. A patent [Daimler20] has been filed for my pipeline on in-car active learning; also winning the Mercedes-Benz Innovation Award 2021. My research ideology of fundamentally improving existing methods has its origin in my Master’s thesis on dimensionality reduction, which addressed the curse of dimensionality prevalent in high-dimensional hyperspectral imagery [4]. I was awarded the Institute Silver Medal by IIT Bombay in 2019.
 
 <div class="row">
 {% include about/timeline.html %}
