@@ -1,10 +1,8 @@
 ---
-name: |
-  Bayesian Uncertainty and Expected Gradient Length<br>
-  <small> Megh Shukla, _Proceedings of the 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)_
-tools: [C#, XML, WPF]
+name: Bayesian Uncertainty and Expected Gradient Length
+tools: [Uncertainty Estimation, Active Learning, Human Pose Estimation]
 image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+description: Megh Shukla, *Proceedings of the 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)*
 ---
 
 # The Movies Project
