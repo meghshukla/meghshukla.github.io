@@ -1,12 +1,13 @@
 ---
-title: Digital Minimalism
-tags: [Social Media, Minimalism, Technology]
-style: 
-color: 
-description: Minimalism is the art of knowing how much is just enough. Digital minimalism applies this idea to our personal technology. It’s the key to living a focused life in an increasingly noisy world.
+title: "TOEFL iBT guide: Scoring 114/120 with ~1.5 days of preparation"
+tags: [Miscellaneous, TOEFL]
+style: fill
+color: light
+description: International students often require documentation to prove proficiency in English. This guide is for you if you are reasonably fluent in English and consider TOEFL a mere formality. This blog covers the resources I used to prepare for TOEFL along with the time I spent in preparing for each module.  
 ---
 
-Source: [Nikhil Thota](https://medium.com/@nikhilthota/digital-minimalism-ac083064b4e4)
+TOEFL (or Test Of English as a Foreign Language) is a three hour exam that tests four basic abilities in English: reading, listening, speaking and writing. Each section has a scaled weightage of 30, translating into an exam with a maximum cumulative score of 120. I attempted the TOEFL iBT Home Edition in October 2021, and scored 114 (R: 29, L: 28, S: 29, W: 28) with a day and a half of preparation. Although a wealth of material is available online for TOEFL preparation, navigating this landscape is tricky if a person is short on time. In fact, anyone _reasonably_ fluent in English can achieve a good score with less than a week of preparation. The key to crack this exam lies in understanding the exam pattern. This blog details my preparation journey with the hope that an uninitiated reader has a template (this word is heavily associated with TOEFL :D) to prepare for the test. I also detail what worked as well as didn't work for me in hindsight of the exam. 
+
 
 A few months ago I was offered (and have since accepted) a full time offer to work at Facebook in San Francisco and in that time I have been reflecting on my own usage of social media and the amount of value it has added to my life.
 
