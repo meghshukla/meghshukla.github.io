@@ -1,12 +1,12 @@
 ---
-title: Clean Coding
-tags: [Software Development, Clean Code]
+title: Applications of Fisher Information
+tags: [Research, Fisher Information]
 style: fill
 color: info
-description: These four “clean code” tips will dramatically improve your engineering team’s productivity
+description: Fisher Information is widely used in statistics. This blog details applications of Fisher Information in modern deep learning algorithms.
 ---
 
-Source: [Jonathan Fulton](https://engineering.videoblocks.com/these-four-clean-code-tips-will-dramatically-improve-your-engineering-teams-productivity-b5bd121dd150)
+
 
 A few years ago at VideoBlocks we had a major code quality problem: “spaghetti” logic in most files, tons of duplication, no tests and more. Writing new features and even minor bug fixes required a couple of Tums at best and entire bottles of Pepto-Bismol and Scotch far too often. Our WTFs per minute were sky-high.
 
