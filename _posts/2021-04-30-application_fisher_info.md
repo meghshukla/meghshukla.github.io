@@ -1,5 +1,5 @@
 ---
-title: Applications of Fisher Information
+title: Fisher Information
 tags: [Research, Fisher Information]
 style: fill
 color: info
