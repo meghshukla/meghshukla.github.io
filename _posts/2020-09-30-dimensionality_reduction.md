@@ -1,6 +1,6 @@
 ---
-title: An Overview Of Popular Dimensionality Reduction Algorithms
-tags: 
+title: An Overview Of Dimensionality Reduction
+tags: [Research, Dimensionality Reduction]
 style: fill
 color: success
 description: Some of the many applications of dimensionality reduction include visualization and representation learning. This article provides a quick overview of classical methods as well as recent methods such as t-SNE and UMAP. 
