@@ -1,9 +1,9 @@
 ---
-title: 4 Lessons After 11 Years in Silicon Valley
+title: An Overview Of Popular Dimensionality Reduction Algorithms
 tags: 
 style: fill
 color: success
-description: On the realities of opportunity, success, reputation, and relationships in tech.
+description: Some of the many applications of dimensionality reduction include visualization and representation learning. This article provides a quick overview of classical methods as well as recent methods such as t-SNE and UMAP. 
 ---
 
 Source: [Ashley Mayer](https://medium.com/s/story/four-lessons-after-eleven-years-in-silicon-valley-d87507b7a4f6)
