@@ -61,7 +61,7 @@ collections:
 
   CV:
     output: true
-    permalink: /files/MeghShukla_CV.pdf
+    permalink: /CV/:name
 
 
 ### Disqus ###
@@ -89,8 +89,6 @@ defaults:
   - scope:
       path: ""
       type: "CV"
-    values:
-      layout: "page"
   #  values:
   #    comments: false                                   # Set to true to enable disqus comments
 
