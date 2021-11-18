@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: page
 title: CV
-permalink: https://meghshukla.github.io/files/MeghShukla_CV.pdf
+permalink: /files/MeghShukla_CV.pdf
 weight: 4
 ---
