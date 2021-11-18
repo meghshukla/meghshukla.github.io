@@ -1,0 +1,17 @@
+---
+layout: default
+title: CV
+weight: 4
+permalink: /CV/
+---
+
+<div class="card-group mt-2">
+
+
+    {% for post in site.articles %}
+        <!-- Note that this must be called "post" because the post-card wasn't
+             made to be reused, we might improve this in the future to allow this. -->
+        {% include blog/post-card.html %}
+    {% endfor %}
+
+</div>
