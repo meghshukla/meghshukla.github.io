@@ -89,6 +89,8 @@ defaults:
   - scope:
       path: ""
       type: "CV"
+    values:
+      layout: "page"
   #  values:
   #    comments: false                                   # Set to true to enable disqus comments
 
