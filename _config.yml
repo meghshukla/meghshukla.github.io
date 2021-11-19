@@ -73,7 +73,7 @@ collections:
 analytics:
   enabled: true                                        # Set true to enable analytics
   google:
-    tracking_id: G-1Q8KZE8FL8                           #your-google-tracking-id
+    tracking_id: UA-213349132-1                        #your-google-tracking-id
 
 
 ### Defaults for collections ###
