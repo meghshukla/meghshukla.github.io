@@ -1,7 +1,7 @@
 ---
 name: "LEt-SNE: Dimensionality Reduction"
 tools: [Dimensionality Reduction, Representation Learning]
-image: https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/images/LEt-SNE_ICASSP.jpg
+image: https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/files/images/LEt-SNE_ICASSP.jpg
 description: Proceedings of the 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
 ---
 
