@@ -11,5 +11,5 @@ Author(s): **Megh Shukla**
 <a href="https://meghshukla.github.io/files/papers/Bayesian_Uncertainty_Expected_Gradient_Length.pdf" target="_blank">[Paper]</a>  <a href="https://meghshukla.github.io/files/papers/Bayesian_Uncertainty_Expected_Gradient_Length-supplementary.pdf" target="_blank">[Supplementary]</a> <a href="https://meghshukla.github.io/projects/1-bayesian-uncertainty-and-expected-gradient-length" target="_blank">[Slides (Coming Soon!)]</a>  
 
 <video width="320" height="240" controls>
-  <source src="video.mov" type="video/mp4">
+  <source src="https://github.com/meghshukla/meghshukla.github.io/blob/master/files/papers/MBRDI.mp4" type="video/mp4">
 </video>
