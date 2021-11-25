@@ -8,6 +8,6 @@ description: Proceedings of the 2021 IEEE/CVF Conference on Computer Vision and 
 # A Mathematical Analysis Of Learning Loss For Active Learning In Regression
 Author(s): **Megh Shukla**, Shuaib Ahmed  
 
-<a href="https://meghshukla.github.io/files/papers/Math_Analysis_LearningLoss.pdf" target="_blank">[Paper]</a>  <a href="https://meghshukla.github.io/files/papers/Math_Analysis_LearningLoss-supplementary.pdf" target="_blank">[Supplementary]</a>  
+<a href="https://meghshukla.github.io/files/papers/cvprw/Math_Analysis_LearningLoss.pdf" target="_blank">[Paper]</a>  <a href="https://meghshukla.github.io/files/papers/cvprw/Math_Analysis_LearningLoss-supplementary.pdf" target="_blank">[Supplementary]</a>  
 
 Coming Soon!

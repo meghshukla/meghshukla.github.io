@@ -8,6 +8,6 @@ description: Proceedings of the 2022 IEEE/CVF Winter Conference on Applications 
 # Bayesian Uncertainty and Expected Gradient Length - Regression: Two Sides Of The Same Coin?
 Author(s): **Megh Shukla**  
 
-<a href="https://meghshukla.github.io/files/papers/Bayesian_Uncertainty_Expected_Gradient_Length.pdf" target="_blank">[Paper]</a>  <a href="https://meghshukla.github.io/files/papers/Bayesian_Uncertainty_Expected_Gradient_Length-supplementary.pdf" target="_blank">[Supplementary]</a> <a href="https://meghshukla.github.io/projects/1-bayesian-uncertainty-and-expected-gradient-length" target="_blank">[Slides (Coming Soon!)]</a>  
+<a href="https://meghshukla.github.io/files/papers/wacv/Bayesian_Uncertainty_Expected_Gradient_Length.pdf" target="_blank">[Paper]</a>  <a href="https://meghshukla.github.io/files/papers/wacv/Bayesian_Uncertainty_Expected_Gradient_Length-supplementary.pdf" target="_blank">[Supplementary]</a>  <a href="https://meghshukla.github.io/files/papers/wacv/BayesianUncertainty_EGL_slides.pdf" target="_blank">[Slides]</a>
 
-<iframe src="https://drive.google.com/file/d/1Mzha4Vfw9C0wgmxJ2Nr2ymD3gY_B-2ps/preview" width="640" height="480" allow="autoplay"></iframe>
+![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
