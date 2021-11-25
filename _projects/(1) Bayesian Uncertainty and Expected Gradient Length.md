@@ -6,8 +6,8 @@ description: Proceedings of the 2022 IEEE/CVF Winter Conference on Applications 
 ---
 
 # Bayesian Uncertainty and Expected Gradient Length - Regression: Two Sides Of The Same Coin?
-## Proceedings of the 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
 
+Publication: _Proceedings of the 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)_
 Author(s): **Megh Shukla**
 
 
