@@ -10,4 +10,4 @@ Author(s): **Megh Shukla**
 
 <a href="https://meghshukla.github.io/files/papers/wacv/Bayesian_Uncertainty_Expected_Gradient_Length.pdf" target="_blank">[Paper]</a>  <a href="https://meghshukla.github.io/files/papers/wacv/Bayesian_Uncertainty_Expected_Gradient_Length-supplementary.pdf" target="_blank">[Supplementary]</a>  <a href="https://meghshukla.github.io/files/papers/wacv/BayesianUncertainty_EGL_slides.pdf" target="_blank">[Slides]</a>
 
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
+![BU_EGL_poster](https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/files/papers/wacv/BayesianUncertainty_EGL_poster.png)
