@@ -6,6 +6,11 @@ color: info
 description: Fisher Information is widely used in statistics. This blog details applications of Fisher Information in modern deep learning algorithms.
 ---
 
+<a href="https://meghshukla.github.io/files/blogs/fisher/fisher_applications.pdf" target="_blank">[Slides]</a>
+
+A gentle introduction to Fisher Information and its applications in machine learning.
+Coming soon!
+
 <sup>References: 
 
 <sup>1. https://agustinus.kristia.de/techblog/ </sup><br>
