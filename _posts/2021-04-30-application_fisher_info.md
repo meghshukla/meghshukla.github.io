@@ -6,7 +6,7 @@ color: info
 description: Fisher Information is widely used in statistics. This blog details applications of Fisher Information in modern deep learning algorithms.
 ---
 
-<sub><sup>
+<sup>
 References: 
 
 1. https://agustinus.kristia.de/techblog/
@@ -16,4 +16,4 @@ References:
 5. https://jmlr.csail.mit.edu/papers/volume18/15-104/15-104.pdf
 6. https://web.stanford.edu/group/sisl/k12/optimization/MO-unit4-pdfs/4.10applicationsofhessians.pdf
 7. https://www.pnas.org/content/pnas/114/13/3521.full.pdf
-</sup></sub>
+</sup>
