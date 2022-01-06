@@ -7,7 +7,7 @@ description: Fisher Information is widely used in statistics. This blog details 
 ---
 
 <sub><sup>
-References: <br>
+References: 
 
 1. https://agustinus.kristia.de/techblog/
 2. https://towardsdatascience.com/natural-gradient-ce454b3dcdfa
