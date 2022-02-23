@@ -50,7 +50,7 @@ author:
 
 
 ### Posts ###
-permalink: /blog/:title
+permalink: /posts/:title
 
 
 ### Collections ###
