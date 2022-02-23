@@ -6,7 +6,7 @@ color: secondary
 description: Slides and code for my presentation and demo on Keypoint estimation.
 ---
 
-<a href="https://meghshukla.github.io/files/blogs/wadla/Keypoint estimation.pdf" target="_blank">[Slides]</a>
+<a href="https://meghshukla.github.io/files/blogs/wadla/KeypointEstimation.pdf" target="_blank">[Slides]</a>
 
 Code: [GitHub](https://github.com/meghshukla/KeypointDemo_WADLA_IIIT/blob/main/code/Demo.ipynb)
 
