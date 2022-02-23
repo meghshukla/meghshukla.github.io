@@ -1,5 +1,5 @@
 ---
-title: Keypoint Estimation @WADLA, IIIT SriCity
+title: Keypoint Estimation at WADLA, IIIT SriCity
 tags: [Research, Keypoint Estimation, Active Learning]
 style: fill
 color: secondary
