@@ -8,4 +8,4 @@ description: Some of the many applications of dimensionality reduction include v
 
 <a href="https://meghshukla.github.io/files/blogs/dim_red/DimensionalityReduction.pdf" target="_blank">[Slides]</a>
 
-Slides uploaded, post coming soon!
+Coming soon!
