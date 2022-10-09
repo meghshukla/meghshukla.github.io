@@ -1,8 +1,9 @@
 ### Site Settings ###
 title               : Megh Shukla
 description         : |
-                      Electrical Engineering Ph.D. Student, EPFL <br>
-                      Active Learning. Coldplay. Age of Empires.<br>
+                      Electrical Engineering Ph.D. Student <br>
+                      École Polytechnique Fédérale de Lausanne <br><br>
+                      Active Learning. Coldplay. Age of Empires :)<br>
 
 
 baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
