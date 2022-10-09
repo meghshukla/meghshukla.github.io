@@ -1,13 +1,13 @@
 ---
 name: "VL4Pose: Active Learning Through Out Of Distribution Detection For Pose Estimation"
 tools: [Active Learning, Human Pose Estimation, Hand Pose Estimation, Keypoint Estimation]
-image: https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/files/images/MB_logo.jpg
+image: https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/files/images/VL4Pose_BMVC.jpg
 description: "Proceedings of the 2022 British Machine Vision Conference (BMVC)"
 ---
 
-# Bayesian Uncertainty and Expected Gradient Length - Regression: Two Sides Of The Same Coin?
+# VL4Pose: Active Learning Through Out-Of-Distribution Detection For Pose Estimation
 
-Publication: _Proceedings of the 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)_ <br>
+Publication: _Proceedings of the 2022 British Machine Vision Conference (BMVC)_ <br>
 Author(s): **Megh Shukla**, Roshan Roy\*, Pankaj Singh\*, Shuaib Ahmed, Alexandre Alahi  <br>
 
 
