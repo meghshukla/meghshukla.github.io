@@ -2,7 +2,7 @@
 title               : Megh Shukla
 description         : |
                       Electrical Engineering Ph.D. Student <br>
-                      École Polytechnique Fédérale de Lausanne <br><br>
+                      École Polytechnique Fédérale de Lausanne (EPFL) <br><br>
                       Active Learning. Coldplay. Age of Empires :)<br>
 
 
@@ -10,7 +10,6 @@ baseurl             : ""                                # Change to empty quotes
 repository          : meghshukla/meghshukla.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : True                             # Opens external URLs in new tab (works for posts, projects and navbar only)
-landing_vertical    : True
 
 ### Plugins ###
 plugins:
