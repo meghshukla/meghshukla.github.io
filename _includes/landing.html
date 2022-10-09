@@ -21,14 +21,13 @@
 
 {% else %}
 <div class="row justify-content-center align-items-center p-4">
-	<div class="col-lg-4 col-md-6 text-center mt-4 text-nowrap">
-	  
+	<div class="col-lg-6 col-md-6 text-center mt-4">
 	  <!-- Fine Circle Responsive Image -->
 	  <div id="container" class="my-2">
-			<div id="dummy"></div>
-			<div id="element">
-		  	<img src="{{ site.author.image }}" alt="{{ site.title }} Profile Image" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
-			</div>
+		<div id="dummy"></div>
+		<div id="element">
+		  <img src="{{ site.author.image }}" alt="{{ site.title }} Profile Image" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+		</div>
 	  </div>
 	  {% for desc in site.description %}
 	  <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ desc }}</p>
