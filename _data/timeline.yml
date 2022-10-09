@@ -1,7 +1,7 @@
 - title: <small> École Polytechnique Fédérale de Lausanne </small> 
   from: July 2022
   to: Present
-  description: Ph.D. Student, Electrical Engineering <br> Doctoral Assistant, Visual Intelligence for Transportation Lab
+  description: <it>Ph.D. Student</it>, Electrical Engineering <br> Doctoral Assistant, Visual Intelligence for Transportation Lab
 
 - title: <small> Mercedes-Benz Research and Development India </small> 
   from: August 2019
@@ -11,13 +11,9 @@
 - title: <small> Indian Institute of Technology Bombay </small> 
   from: July 2017
   to: July 2019
-  description: Master of Technology, <a href="https://meghshukla.github.io/files/papers/icassp/LEt-SNE.pdf">Thesis</a>
+  description: <it>Master of Technology</it> <a href="https://meghshukla.github.io/files/papers/icassp/LEt-SNE.pdf">Thesis: LEt-SNE (Dimensionality Reduction)</a>
 
 - title: <small> University of Mumbai </small>
   from: July 2013
   to: July 2017
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: <it>Bachelor of Engineering</it>
