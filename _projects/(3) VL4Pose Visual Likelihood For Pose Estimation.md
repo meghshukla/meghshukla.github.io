@@ -2,7 +2,7 @@
 name: "VL4Pose: Active Learning Through Out Of Distribution Detection For Pose Estimation"
 tools: [Active Learning, Human Pose Estimation, Hand Pose Estimation, Keypoint Estimation]
 image: https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/files/images/VL4Pose_BMVC.jpg
-description: "Proceedings of the 2022 British Machine Vision Conference (BMVC)"
+description: "Proceedings of the 2022 British Machine Vision Conference (BMVC) <br><br> Patent Filed by Mercedes-Benz AG in 2022"
 ---
 
 # VL4Pose: Active Learning Through Out-Of-Distribution Detection For Pose Estimation
