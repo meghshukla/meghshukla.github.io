@@ -5,13 +5,11 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
-
-Page is in progress!
+# Research Beyond Publications
 
 Hi, **Megh** here :wave:,<br>
 <div style="text-align: justify">
-	I am a novice researcher, trying to peek over the shoulders of giants! As a Computer Vision Research Engineer, I have the privilege of leading research and implementing it in production. At Mercedes-Benz, I worked on solving *Active Learning* for human pose estimation <small>[WACV22, CVPRW21, Daimler20]</small>. I provided a proof-of-concept and engineered a production pipeline for active learning, identifying limitations with existing methods. Consequently, my research <small>[WACV22, CVPRW21]</small> made key theoretical contributions in active learning theory. A patent <small>[Daimler20]</small> has been filed for my pipeline on in-car active learning; also winning the Mercedes-Benz Innovation Award 2021. My research ideology of fundamentally improving existing methods has its origin in my Master’s thesis on dimensionality reduction, which addressed the curse of dimensionality prevalent in high-dimensional hyperspectral imagery <small>[ICASSP20]</small>. I was awarded the Institute Silver Medal by IIT Bombay in 2019. </div>
+	I am a first year Ph.D. student in Electrical Engineering at EPFL supervised by Prof. Alexandre Alahi, <a href="https://www.epfl.ch/labs/vita/" target="_blank">[Visual Intelligence for Transportation Lab]</a>. My research interests lie in uncertainty estimation, active learning and probabilistic modelling for keypoint estimation. These interests are peppered throughout my fledgling  career, most notably during my tenure at Mercedes-Benz. As a computer vision research engineer, I lead R&D in active learning, an academic research area with tangible business benefits. I take pride in not only providing theoretical and applied advancements in active learning <small>[BMVC22, WACV22, CVPRW21]</small>, but also in engineering my research into the project's data pipelines. Taking research beyond publications and into production allowed me a holistic view of the research <i>and</i> development cycle which remains a defining moment in my career.
 
 <div class="row">
 {% include about/timeline.html %}
