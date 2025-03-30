@@ -1,8 +1,18 @@
-<div class="d-grid gap-3 m-3 mt-5" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-auto-flow: dense;">
+<style>
+  .masonry-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+  }
 
+  .masonry-item {
+    break-inside: avoid;
+  }
+</style>
+
+<div class="masonry-container m-3 mt-5">
   {% for project in site.projects %}
-
-    <div class="card">
+    <div class="masonry-item">
       {%- assign project_type  = "local" -%}
       {%- assign project_id    = project.name | slugify -%}
       {%- assign project_img   = project.image -%}
@@ -20,7 +30,5 @@
 
       {% include projects/project-card.html %}
     </div>
-
   {% endfor %}
-
 </div>
