@@ -10,14 +10,13 @@ description         : |
 
 
 baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : meghshukla/meghshukla.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : True                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 landing_vertical    : False                             # Set the front page to be vertical (true) or horizontal (false)
 
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-katex
 
 
 ### Navbar Settings ###
@@ -60,7 +59,7 @@ permalink: /posts/:title
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /research/:slug
 
   CV:
     output: true
@@ -77,6 +76,16 @@ analytics:
   enabled: true                                        # Set true to enable analytics
   google:
     tracking_id: UA-213349132-1                        #your-google-tracking-id
+
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: false
+  username: your_username
+  color: "#007bff"
+  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee!"
 
 
 ### Defaults for collections ###
@@ -97,6 +106,10 @@ defaults:
   #  values:
   #    comments: false                                   # Set to true to enable disqus comments
 
+
+katex:
+  enable_on_post: true
+  enable_on_page: true
 
 ### Exclude from processing ###
 exclude:
