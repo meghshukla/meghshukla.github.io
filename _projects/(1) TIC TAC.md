@@ -1,7 +1,7 @@
 ---
 name: "TIC-TAC: A Framework for Improved Covariance Estimation in Deep Heteroscedastic Regression"
 slug: tic-tac
-tools: [Method]
+tools: [PhD Thesis, Deep Regression (Method), Uncertainty Estimation, Probabilistic Human Pose Estimation]
 image: https://raw.githubusercontent.com/deep-regression/deep-regression.github.io/master/files/images/tictac/tic-tac.jpg
 description: '<img src="https://icml.cc/media/Press/ICML-logo.svg" alt="ICML Logo" style="width: 100px; height: auto;">'
 ---

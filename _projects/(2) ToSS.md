@@ -1,7 +1,7 @@
 ---
 name: "Towards Self-Supervised Covariance Estimation in Deep Heteroscedastic Regression"
 slug: toss
-tools: [Method]
+tools: [PhD Thesis, Deep Regression (Method), Uncertainty Estimation, Probabilistic Human Pose Estimation]
 image: https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/files/images/toss/toss.png
 description: '<img src="https://iclr.cc/static/core/img/ICLR-logo.svg" alt="ICLR Logo" style="width: 100px; height: auto;">'
 ---

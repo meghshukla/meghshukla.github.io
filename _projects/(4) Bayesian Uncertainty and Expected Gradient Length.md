@@ -3,7 +3,7 @@ name: Bayesian Uncertainty and Expected Gradient Length
 slug: "bu-and-egl"
 tools: [Uncertainty Estimation, Active Learning, Human Pose Estimation]
 image: https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/files/images/EGL%2B%2B_WACV.jpg
-description: Proceedings of the 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+description: '<img src="https://github.com/meghshukla/meghshukla.github.io/blob/master/files/images/motionmap/WACV_2022_logo.jpg?raw=true" alt="WACV Logo" style="width: 100px; height: auto;">'
 ---
 
 # Bayesian Uncertainty and Expected Gradient Length - Regression: Two Sides Of The Same Coin?

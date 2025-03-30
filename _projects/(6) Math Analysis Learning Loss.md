@@ -1,7 +1,7 @@
 ---
 name: Mathematical Analysis Of Learning Loss
 slug: "math-analysis-learning-loss"
-tools: [Active Learning, Human Pose Estimation]
+tools: [Deep Regression (Application), Uncertainty Estimation, Active Learning]
 image: https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/files/images/LL%2B%2B_CVPRW.jpg
 description: Proceedings of the 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
 ---
