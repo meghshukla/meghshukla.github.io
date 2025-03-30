@@ -1,59 +1,37 @@
-
-<div class="card-columns m-3 mt-5">
-
-  <!-- Remote Projects -->
-  {% for remote_project in page.remote_projects %}
-
-    {%- for repo in site.github.public_repositories -%}
-
-      {%- if remote_project == repo.name -%}
-
-        {%- assign project = repo -%}
-        {%- assign words = project.name | split: '-' -%}
-        
-        {%- capture titlecase -%}
-          {%- for word in words -%}
-            {{ word | capitalize | append: ' ' }}
-          {%- endfor -%}
-        {%- endcapture -%}
-
+<div class="container m-3 mt-5">
+  <div class="row">
+    <!-- Combined Projects -->
+    {% assign all_projects = page.remote_projects | concat: site.projects %}
+    {% for project in all_projects %}
+      {%- if project in page.remote_projects -%}
+        {%- assign repo = site.github.public_repositories | where: "name", project | first -%}
         {%- assign project_type  = "remote" -%}
-        {%- assign project_id    = project.name -%}
+        {%- assign project_id    = repo.name -%}
         {%- assign project_img   = false -%}
-        {%- assign project_name  = titlecase | strip -%}
-        {%- assign project_desc  = project.description -%}
-        {%- assign project_url   = project.html_url -%}
-        {%- assign project_tools = project.topics -%}
+        {%- assign project_name  = repo.name | split: '-' | map: "capitalize" | join: ' ' -%}
+        {%- assign project_desc  = repo.description -%}
+        {%- assign project_url   = repo.html_url -%}
+        {%- assign project_tools = repo.topics -%}
         {%- assign external      = true -%}
-
-        {% include projects/project-card.html %}
-
+      {%- else -%}
+        {%- assign project_type  = "local" -%}
+        {%- assign project_id    = project.name | slugify -%}
+        {%- assign project_img   = project.image -%}
+        {%- assign project_name  = project.name -%}
+        {%- assign project_desc  = project.description -%}
+        {%- assign project_tools = project.tools -%}
+        {%- if project.external_url -%}
+          {%- assign project_url = project.external_url -%}
+          {%- assign external    = true -%}
+        {%- else -%}
+          {%- assign project_url = project.url | relative_url -%}
+          {%- assign external    = false -%}
+        {%- endif -%}
       {%- endif -%}
 
-    {%- endfor -%}
-
-  {% endfor %}
-
-  <!-- Local Projects -->
-  {% for project in site.projects %}
-
-    {%- assign project_type  = "local" -%}
-    {%- assign project_id    = project.name | slugify -%}
-    {%- assign project_img   = project.image -%}
-    {%- assign project_name  = project.name -%}
-    {%- assign project_desc  = project.description -%}
-    {%- assign project_tools = project.tools -%}
-
-    {%- if project.external_url -%}
-      {%- assign project_url = project.external_url -%}
-      {%- assign external    = true -%}
-    {%- else -%}
-      {%- assign project_url = project.url | relative_url -%}
-      {%- assign external    = false -%}
-    {%- endif -%}
-
-    {% include projects/project-card.html %}
-
-  {% endfor %}
-
+      <div class="col-md-4 mb-4">
+        {% include projects/project-card.html %}
+      </div>
+    {% endfor %}
+  </div>
 </div>
