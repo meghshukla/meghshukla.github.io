@@ -1,9 +1,9 @@
 ---
 name: "LEt-SNE: Dimensionality Reduction"
 slug: "let-sne"
-tools: [Dimensionality Reduction, Representation Learning]
+tools: [Master Thesis, Dimensionality Reduction, Representation Learning]
 image: https://raw.githubusercontent.com/meghshukla/meghshukla.github.io/master/files/images/LEt-SNE_ICASSP.jpg
-description: Proceedings of the 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+description: '<img src="https://cibm.ch/wp-content/uploads/ICASSP2020.png" alt="ICASSP Logo" style="width: 100px; height: auto;">'
 ---
 
 # LEt-SNE: A Hybrid Approach To Data Embedding And Visualization Of Hyperspectral Imagery
