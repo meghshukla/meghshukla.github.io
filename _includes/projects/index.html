@@ -1,32 +1,19 @@
 <div class="container m-3 mt-5">
   <div class="row">
-    <!-- Combined Projects -->
-    {% assign all_projects = page.remote_projects | concat: site.projects %}
-    {% for project in all_projects %}
-      {%- if project in page.remote_projects -%}
-        {%- assign repo = site.github.public_repositories | where: "name", project | first -%}
-        {%- assign project_type  = "remote" -%}
-        {%- assign project_id    = repo.name -%}
-        {%- assign project_img   = false -%}
-        {%- assign project_name  = repo.name | split: '-' | map: "capitalize" | join: ' ' -%}
-        {%- assign project_desc  = repo.description -%}
-        {%- assign project_url   = repo.html_url -%}
-        {%- assign project_tools = repo.topics -%}
-        {%- assign external      = true -%}
+    <!-- Local Projects -->
+    {% for project in site.projects %}
+      {%- assign project_type  = "local" -%}
+      {%- assign project_id    = project.name | slugify -%}
+      {%- assign project_img   = project.image -%}
+      {%- assign project_name  = project.name -%}
+      {%- assign project_desc  = project.description -%}
+      {%- assign project_tools = project.tools -%}
+      {%- if project.external_url -%}
+        {%- assign project_url = project.external_url -%}
+        {%- assign external    = true -%}
       {%- else -%}
-        {%- assign project_type  = "local" -%}
-        {%- assign project_id    = project.name | slugify -%}
-        {%- assign project_img   = project.image -%}
-        {%- assign project_name  = project.name -%}
-        {%- assign project_desc  = project.description -%}
-        {%- assign project_tools = project.tools -%}
-        {%- if project.external_url -%}
-          {%- assign project_url = project.external_url -%}
-          {%- assign external    = true -%}
-        {%- else -%}
-          {%- assign project_url = project.url | relative_url -%}
-          {%- assign external    = false -%}
-        {%- endif -%}
+        {%- assign project_url = project.url | relative_url -%}
+        {%- assign external    = false -%}
       {%- endif -%}
 
       <div class="col-md-4 mb-4">
