@@ -2,7 +2,7 @@
 name: "Towards Self-Supervised Covariance Estimation in Deep Heteroscedastic Regression"
 slug: toss
 tools: [Method]
-image: https://raw.githubusercontent.com/deep-regression/deep-regression.github.io/master/files/images/toss/setup.png
+image: https://raw.githubusercontent.com/deep-regression/deep-regression.github.io/master/files/images/toss/residualcov.png
 description: '<img src="https://iclr.cc/static/core/img/ICLR-logo.svg" alt="ICLR Logo" style="width: 100px; height: auto;">'
 ---
 
