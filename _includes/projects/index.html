@@ -1,8 +1,8 @@
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 m-3 mt-5" data-masonry='{"percentPosition": true }'>
+<div class="d-grid gap-3 m-3 mt-5" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-auto-flow: dense;">
 
   {% for project in site.projects %}
 
-    <div class="col">
+    <div class="card">
       {%- assign project_type  = "local" -%}
       {%- assign project_id    = project.name | slugify -%}
       {%- assign project_img   = project.image -%}
