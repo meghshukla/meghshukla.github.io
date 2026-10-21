@@ -15,10 +15,10 @@ description: '<img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/ArXi
 </style>
 
 
-# CLUE: Modeling Uncertainty Propagation in 3D Morphable Models
+# Modeling Uncertainty Propagation in 3D Morphable Models
 <br><br>
 <span style="font-size:20px;">**Megh Shukla**, Edo Collins, Prashanth Chandran, Karel Petránek, Sergio Orts-Escolano, Mathieu Salzmann, Alexandre Alahi <br>
-*EPFL, Google, Waabi · arXiv preprint, 2026*</span>
+*EPFL, Google · arXiv preprint, 2026*</span>
 
 
 <a href="https://arxiv.org/abs/2610.24646"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-Paper%20(link)-black?style=flat&logo=arxiv&logoColor=%23B31B1B&logoSize=auto&labelColor=white" style="width: auto; height: 25px;"></a> <a href="https://github.com/vita-epfl/CLUE"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Code%20(link)-gray?style=flat&logo=GitHub&logoColor=black&logoSize=auto&labelColor=white" style="width: auto; height: 25px;"></a> <a href="https://huggingface.co/spaces/meghshukla/clue-demo"><img alt="Demo" src="https://img.shields.io/badge/Demo-Try%20it%20(link)-%23FF9D00?style=flat&logo=huggingface&logoColor=%23FFD21E&logoSize=auto&labelColor=white" style="width: auto; height: 25px;"></a> <a href="https://huggingface.co/meghshukla/clue"><img alt="Weights" src="https://img.shields.io/badge/Weights-Hugging%20Face%20(link)-%23C78C06?style=flat&logo=huggingface&logoColor=%23FFD21E&logoSize=auto&labelColor=white" style="width: auto; height: 25px;"></a><br>
@@ -112,7 +112,7 @@ Next, we use CLUE to train an in-the-wild human mesh recovery model. We take SAM
 <span style="font-size: 14px; color: darkgray;"><em>A dancer's back walkover: the uncertainty rises as the body turns and the limbs blur.</em></span>
 <br><br>
 
-We compare CLUE against deterministic training (no uncertainty) and three probabilistic objectives that predict the uncertainty directly over the parameters (Parameter NLL, Matrix-Fisher and Normalizing Flow), all trained the same way on 1.2M images. CLUE is trained either on the joints alone, or on the joints and the vertices of the mesh. Errors are in millimetres, lower is better: MPJPE measures the joints, PVE the surface of the body.
+We compare CLUE against deterministic training (no uncertainty) and three probabilistic objectives that predict the uncertainty directly over the parameters (Parameter NLL, Matrix-Fisher and Normalizing Flow), all trained the same way on 1.2M images. CLUE is trained on the 3DMM parameters and the joints. Errors are in millimetres, lower is better: MPJPE measures the joints, PVE the surface of the body.
 
 | Training objective | 3DPW MPJPE | 3DPW PVE | EMDB MPJPE | EMDB PVE |
 |---|:-:|:-:|:-:|:-:|
@@ -120,8 +120,7 @@ We compare CLUE against deterministic training (no uncertainty) and three probab
 | Parameter NLL | 57.9 | 68.9 | 66.4 | 79.5 |
 | Matrix-Fisher | 58.0 | 68.8 | 68.8 | 81.7 |
 | Normalizing Flow | 58.3 | 68.9 | 68.0 | 80.7 |
-| **CLUE** (joints) | 56.2 | **66.8** | 66.3 | 78.7 |
-| **CLUE** (joints and vertices) | **56.1** | 67.0 | **65.4** | **77.9** |
+| **CLUE** | **56.1** | **67.0** | **65.4** | **77.9** |
 
 All probabilistic objectives beat deterministic training, and CLUE is the best of them. When trained longer, CLUE also holds its own against the released SAM 3D Body, which was trained on three times as many images:
 
