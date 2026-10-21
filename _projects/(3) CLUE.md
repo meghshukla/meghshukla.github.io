@@ -76,6 +76,65 @@ CLUE adds the two contributions, separately for every vertex. Since both follow 
 <br><br>
 
 
+## Watch uncertainty propagate
+
+To build some intuition, we move one parameter back and forth while giving it some uncertainty, and colour the mesh by the per-vertex uncertainty that CLUE computes: blue where the mesh is certain, red where it is not.
+
+<div style="display: flex; justify-content: space-between; gap: 12px; text-align: center;">
+  <div style="width: 32%;">
+    <video class="responsive-video" autoplay loop muted playsinline>
+      <source src="/files/videos/clue/sweep_smplx_shoulder_hip.mp4" type="video/mp4">
+    </video>
+    <span style="font-size: 14px; color: darkgray;"><em>Shoulder and hip rotation: the uncertainty grows towards the hand and the foot, like the end of a lever.</em></span>
+  </div>
+  <div style="width: 32%;">
+    <video class="responsive-video" autoplay loop muted playsinline>
+      <source src="/files/videos/clue/sweep_smplx_spine.mp4" type="video/mp4">
+    </video>
+    <span style="font-size: 14px; color: darkgray;"><em>Spine rotation: everything above the waist becomes uncertain, the hands most of all.</em></span>
+  </div>
+  <div style="width: 32%;">
+    <video class="responsive-video" autoplay loop muted playsinline>
+      <source src="/files/videos/clue/sweep_smplx_shape.mp4" type="video/mp4">
+    </video>
+    <span style="font-size: 14px; color: darkgray;"><em>Body shape: the uncertainty spreads over the whole body, centred on the torso.</em></span>
+  </div>
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 12px; text-align: center;">
+  <div style="width: 32%;">
+    <video class="responsive-video" autoplay loop muted playsinline>
+      <source src="/files/videos/clue/sweep_flame_expression.mp4" type="video/mp4">
+    </video>
+    <span style="font-size: 14px; color: darkgray;"><em>An expression: the corners of the mouth.</em></span>
+  </div>
+  <div style="width: 32%;">
+    <video class="responsive-video" autoplay loop muted playsinline>
+      <source src="/files/videos/clue/sweep_flame_jaw.mp4" type="video/mp4">
+    </video>
+    <span style="font-size: 14px; color: darkgray;"><em>The jaw: the chin and the lower lip.</em></span>
+  </div>
+  <div style="width: 32%;">
+    <video class="responsive-video" autoplay loop muted playsinline>
+      <source src="/files/videos/clue/sweep_flame_neck.mp4" type="video/mp4">
+    </video>
+    <span style="font-size: 14px; color: darkgray;"><em>The neck: the whole head, and its top most of all.</em></span>
+  </div>
+</div>
+
+**Play with it.** Each of the FLAME, SMPL-X and MHR folders in our [code](https://github.com/vita-epfl/CLUE) comes with an interactive viewer. Every parameter has a second slider for its uncertainty: move either one, and CLUE recolours the mesh as you go.
+
+<img src="/files/images/clue/flame_viewer.png" alt="FLAME interactive viewer: parameter and uncertainty sliders on the left, the mesh coloured by per-vertex uncertainty on the right" style="width: 100%; height: auto;">
+<span style="font-size: 14px; color: darkgray;"><em>The FLAME viewer: giving one expression parameter some uncertainty lights up the mouth and the cheeks.</em></span>
+
+```bash
+cd FLAME            # or SMPLX, MHR
+python demo.py
+```
+
+<br><br>
+
+
 ## Is CLUE accurate?
 
 We first test CLUE as a pure translation from parameter uncertainty to mesh uncertainty. We give random faces and bodies some parameter uncertainty, compute the "true" per-vertex uncertainty from 10,000 samples, and compare each method against it.
